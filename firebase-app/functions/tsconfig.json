@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "include": ["src/**/*", "src/**/**/*", "src/**/**/**/*"],
+  "exclude": ["node_modules", "__tests__", "__mocks__", "lib", ".env.*"],
+  "references": [{ "path": "../../packages/x-core" }]
+}
